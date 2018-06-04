@@ -1,0 +1,10 @@
+[package]
+name = "bencode"
+version = "0.1.0"
+authors = ["Clark Kampfe <clark.kampfe@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+combine = "3.3.1"
